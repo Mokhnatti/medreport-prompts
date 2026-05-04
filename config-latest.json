@@ -1,13 +1,18 @@
 {
   "$schema": "medreport-config-v1",
-  "version": "20260504-155311",
-  "published_at": "2026-05-04T15:53:11Z",
+  "version": "20260504-161504",
+  "published_at": "2026-05-04T16:15:04Z",
   "config": {
     "claude_model": "claude-opus-4-7",
     "max_tokens": 32768,
     "temperature": 0.0,
     "extractor_backend": "sdk",
-    "monthly_budget_warning_usd": 5.0
+    "monthly_budget_warning_usd": 5.0,
+    "review_low_confidence_threshold": 0.7,
+    "max_retries": 3,
+    "chat_search_default": "Медики ЦССВ",
+    "chunk_days": 0,
+    "show_diagnostics_button": true
   },
-  "signature": "ed25519:VvrnAkU2VoXoJsxVfGWGK65ZUxskVl/n3u/EhWSZLR3F53b5sRmeLPiWcoF+ngUbRngfZMSsO+Qy5O7tNbnLCA=="
+  "signature": "ed25519:3ahakg/MM5+guQyi/J27YSjHBImr+Lkz3o1/LHD8lBMequ+g33gW/fCiH6CPkEOLGp7s1m3gVSz3TW4dSDRUDA=="
 }
