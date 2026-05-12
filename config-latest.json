@@ -1,7 +1,7 @@
 {
   "$schema": "medreport-config-v1",
-  "version": "20260504-161504",
-  "published_at": "2026-05-04T16:15:04Z",
+  "version": "20260512-083327",
+  "published_at": "2026-05-12T08:33:27Z",
   "config": {
     "claude_model": "claude-opus-4-7",
     "max_tokens": 32768,
